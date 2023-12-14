@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    text-decoration: none;
+    background-color:#1f1d1d;
+}
+@font-face{
+    font-family: ComicNeue;
+    src: url(ComicNeue-Regular.ttf);
+}
+.header{
+    font-family: ComicNeue;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    flex-direction: column;
+}
+.head{
+    font-family: ComicNeue;
+    height: 100vh;
+    width: 100vw;
+    display:center;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    color: #fff;
+    flex-direction: column;
+}
